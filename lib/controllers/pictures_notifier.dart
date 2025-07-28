@@ -12,5 +12,3 @@ class PicturesNotifier extends Notifier<List<PictureModel>> {
     state = [...state, PictureModel(id: state.length + 1, url: file.path)];
   }
 }
-
-
